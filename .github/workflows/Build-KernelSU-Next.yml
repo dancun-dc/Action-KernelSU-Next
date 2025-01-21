@@ -5,11 +5,11 @@ on:
       CPU:
         description: "分支"
         required: true
-        default: 'sm7675'
+        default: 'sm8650'
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_ace_3v_v'
+        default: 'oneplus12_v'
       CPUD:
         description: "处理器代号"
         required: true
@@ -28,8 +28,8 @@ jobs:
 
      - name: Configure Git
        run: |
-        git config --global user.name "wuua"
-        git config --global user.email "3436678798@qq.com"
+        git config --global user.name "dancun"
+        git config --global user.email "dancun233@gmail.com"
 
      - name: Clean up disk space
        run: |
