@@ -1,7 +1,5 @@
 name: Build KernelSU Next SUSFS
 on:
-  schedule: # 定时任务
-    - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       CPU:
